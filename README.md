@@ -5,9 +5,3 @@ This repo contains all thing about my 2020 IC research. I worked with Professor 
 ## Ising 2D
 
 If you know Portuguese I highly recommend this [wiki](https://fiscomp.if.ufrgs.br/index.php/Ising_2D) about the Ising Model. In english there is the usual [wiki](https://en.wikipedia.org/wiki/Ising_model). 
-
-The Ising Model I worked is mathematically described by
-
-```math
-  \mathcal{H} = -J \sum_{\langle i, j \rangle} s_i s_j
-```
