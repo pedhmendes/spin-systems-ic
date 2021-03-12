@@ -20,3 +20,5 @@ I did a presentation video for [SIC 2020](https://www.ufrgs.br/propesq1/sic2020/
 ## OpenMP
 
 Eventually I will talk about parallelization, the tool chose was OpenMP. More information about it can be found in this [link](https://www.openmp.org/). 
+
+I'm currently doing a course about OpenMp in Coursera, Fundamentals of Parallelism on Intel Architecture. More information about this course can be found [here](https://www.coursera.org/learn/parallelism-ia).
