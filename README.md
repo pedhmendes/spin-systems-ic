@@ -8,6 +8,6 @@ If you know Portuguese I highly recommend this [wiki](https://fiscomp.if.ufrgs.b
 
 The Ising Model I worked is mathematically described by
 
-\begin{aligned}
+```math
   \mathcal{H} = -J \sum_{\langle i, j \rangle} s_i s_j
-\end{aligned}
+```
