@@ -4,14 +4,17 @@ This repo contains all thing about my 2020 IC research. I worked with Professor 
 
 ## Ising 2D
 
-If you know Portuguese I highly recommend this [wiki](https://fiscomp.if.ufrgs.br/index.php/Ising_2D) about the Ising Model. In english there is the usual [wiki](https://en.wikipedia.org/wiki/Ising_model). 
+In Portuguese I highly recommend this [wiki](https://fiscomp.if.ufrgs.br/index.php/Ising_2D) about the Ising Model. In english there is the usual [wiki](https://en.wikipedia.org/wiki/Ising_model). 
 
 To compile my Ising Model code is necessary that ```mc.h``` is in the same directory. I used the RNG avaiable in this file. To run you may provide and temperature as argument. Follow the examples to compile and run.
 
 ```gcc ising_model_serial.c -lm```
+
 ```./a.out TEMP```
 
-where ```TEMP``` is the temperature of the system. In the end the program returns the execution time. I did this in order to compare the execution times between the serial code and the future parallelized codes.
+where ```TEMP``` is the temperature of the system. In the end the program returns the execution time. I did this in order to compare the execution times between the serial code and the future parallelized codes. There are some plots in a folder where I compared different matrixes sizes with different temperatures. There is also temporal series and correlation times for L = 16.
+
+I did a presentation video for [SIC 2020](https://www.ufrgs.br/propesq1/sic2020/). You can find the youtube link in this [link](https://www.youtube.com/watch?v=nI9L4SJyBcA). The presentation file and the latex project can be found as well. The video and the presentation file are in portuguese.
 
 
 ## OpenMP
