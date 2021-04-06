@@ -6,7 +6,7 @@ This repo contains all thing about my 2020 IC research. I worked with Professor 
 
 In Portuguese I highly recommend this [wiki](https://fiscomp.if.ufrgs.br/index.php/Ising_2D) about the Ising Model. In english there is the usual [wiki](https://en.wikipedia.org/wiki/Ising_model). 
 
-To compile my Ising Model code is necessary that ```mc.h``` is in the same directory. I used the RNG avaiable in this file. To run you may provide and temperature as argument. Follow the examples to compile and run.
+To compile my Ising Model code is necessary that ```mc.h``` is in the same directory. I used the RNG avaiable in this file. To run you must provide and temperature as argument. Follow the examples to compile and run.
 
 ```gcc ising_model_serial.c -lm```
 
